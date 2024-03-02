@@ -59,3 +59,4 @@ encoded_dataset = pd.concat(
 assert TARGET_COLUMN not in encoded_dataset # we cannot use target column to train the model!!!
 
 encoded_dataset.to_csv("/home/juanbratti/Desktop/ml_introduction/data/encoded_dataset.csv", index=False)
+
